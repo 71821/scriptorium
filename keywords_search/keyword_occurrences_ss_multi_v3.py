@@ -9,7 +9,7 @@ Ce que fera le script :
 4. Créer un tableau global (.xlsx) avec :
     - Lignes = mots-clés
     - Colonnes = années
-    - Valeurs = nombre de publications par an
+    - Valeurs = nombre de *nouvelles publications* par an
     
 """
 

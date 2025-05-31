@@ -1,19 +1,20 @@
-"""
-Script : Extraction de publications via l'API Crossref
-------------------------------------------------------
-
-Ce script permet d'extraire toutes les publications contenant un mot-clé donné,
-présent dans le titre ou les mots-clés via l'API publique de Crossref.
-
-Fonctionnalités :
-- Extraction complète sans limite (par lots de 500).
-- Reprise automatique en cas d'arrêt, avec détection des fichiers sauvegardés.
-- Enregistrement des résultats par tranche (chunk) au format Excel.
-- Gestion des erreurs réseau avec 5 minutes de tentatives progressives.
-- Fusion finale des données extraites.
-- Affichage progressif, suivi en pourcentage et message clair pour l'utilisateur.
-"""
-
+##########################################################################
+#
+# Script : Extraction de publications via l'API Crossref
+# ------------------------------------------------------
+#
+# Ce script permet d'extraire toutes les publications contenant un mot-clé donné,
+# présent dans le titre ou les mots-clés via l'API publique de Crossref.
+#
+# Fonctionnalités :
+#    - Extraction complète sans limite (par lots de 500).
+#    - Reprise automatique en cas d'arrêt, avec détection des fichiers sauvegardés.
+#    - Enregistrement des résultats par tranche (chunk) au format Excel.
+#    - Gestion des erreurs réseau avec 5 minutes de tentatives progressives.
+#    - Fusion finale des données extraites.
+#    - Affichage progressif, suivi en pourcentage et message clair pour l'utilisateur.
+#
+##########################################################################
 
 import requests
 import time

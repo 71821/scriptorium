@@ -1,3 +1,7 @@
+# Ce script interroge l'API OpenAlex pour compter le 
+# nombre de publications par mot-clé et par année.
+
+
 import requests
 import pandas as pd
 import time

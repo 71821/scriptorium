@@ -1,22 +1,22 @@
-"""
-
-ANALYSE MULTI MOTS-CLES AVEC L'API SEMANTIC SCHOLAR 
---------------------------------------------
-
-Ce que fera le script :
-
-1. Demander :
-    - La période (année début – année fin)
-    - Les mots-clés à analyser
-2. Rechercher le nombre de nouvelles publications par année et par mot-clé
-3. Enregistrer chaque mot-clé dans son propre fichier .xlsx
-4. Créer un tableau global (.xlsx) avec :
-    - Lignes = mots-clés
-    - Colonnes = années
-    - Valeurs = nombre de *nouvelles publications* par an
-    
-"""
-
+##################################################################
+#
+# ANALYSE MULTI MOTS-CLES AVEC L'API SEMANTIC SCHOLAR 
+# --------------------------------------------
+#
+# Ce que fera le script :
+# 
+# 1. Demander :
+#     - La période (année début – année fin)
+#     - Les mots-clés à analyser
+# 2. Rechercher le nombre de nouvelles publications par année et par mot-clé
+# 3. Enregistrer chaque mot-clé dans son propre fichier .xlsx
+# 4. Créer un tableau global (.xlsx) avec :
+#     - Lignes = mots-clés
+#     - Colonnes = années
+#     - Valeurs = nombre de *nouvelles publications* par an
+#     
+# 
+##################################################################
 
 import requests
 import pandas as pd

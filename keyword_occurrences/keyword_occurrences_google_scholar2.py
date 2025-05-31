@@ -1,5 +1,18 @@
 # coding: utf-8
 
+# --------------------------------------------------
+# 🧠 Script Google Scholar – Analyse temporelle
+# --------------------------------------------------
+
+# Ce script :
+# ✔️ Demande un mot-clé et une période (année de début et de fin)
+# ✔️ Interroge Google Scholar pour estimer le nombre de publications par année
+# ✔️ Sauvegarde les résultats dans un fichier Excel (.xls)
+# ✔️ Gère les erreurs temporaires (429 - trop de requêtes)
+# ✔️ Ajoute une pause aléatoire + rotation des User-Agent
+# --------------------------------------------------
+
+
 import time
 import datetime
 import xlwt

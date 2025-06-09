@@ -1,12 +1,13 @@
-'''
-Ce script permet de récupérer tous les DOI d'une 
-revue scientifique.
 
-Il pprend en entrée jusqu'à deux ISSN (imprimé et en ligne).
-
-Les DOI récupérés sont triés par date et sauvegardés dans un fichier texte.
-
-'''
+#########################################
+# Ce script permet de récupérer tous les DOI d'une revue scientifique.
+#
+# Il prend en entrée jusqu'à deux ISSN (imprimé et en ligne) d'une même revue.
+#
+# Les DOI récupérés sont triés par date 
+# et sauvegardés dans un fichier texte.
+#
+#########################################
 
 import requests
 from datetime import datetime
